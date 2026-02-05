@@ -1,7 +1,9 @@
 FROM jlesage/baseimage-gui:ubuntu-24.04
 
+ARG APP_VERSION="1.5.5"
+
 ENV APP_NAME="Simpler FileBot" \
-    APP_VERSION="1.5.5" \
+    APP_VERSION="${APP_VERSION}" \
     XDG_DATA_HOME="/config" \
     XDG_CONFIG_HOME="/config"
 
