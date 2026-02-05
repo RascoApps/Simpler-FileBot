@@ -34,6 +34,16 @@ This is a batch file-renaming GUI tool for movies and tv shows.
 
 - `py main.py`
 
+### Docker (GUI)
+
+This container uses a GUI base image similar to the [jlesage docker apps](https://jlesage.github.io/docker-apps/).
+
+- `docker build -t simpler-filebot .`
+
+- `docker run --rm -p 5800:5800 -p 5900:5900 -v /path/to/config:/config simpler-filebot`
+
+Open `http://localhost:5800` to access the UI.
+
 ### Windows
 - `Run install_dependencies.bat`
 
