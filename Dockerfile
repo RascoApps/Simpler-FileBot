@@ -1,6 +1,6 @@
 FROM jlesage/baseimage-gui:ubuntu-24.04
 
-ARG APP_VERSION
+ARG APP_VERSION=latest
 
 ENV APP_NAME="Simpler FileBot" \
     APP_VERSION="${APP_VERSION}" \
